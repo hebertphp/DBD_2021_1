@@ -29,3 +29,5 @@ insert into funcionario (nome, salario, departamento,dt_nascimento)
 values ('Anacleto',3500,'COMERCIAL','1979-09-25');
 insert into funcionario (nome, salario, departamento,dt_nascimento,dependente) 
 values ('Mariana',3600,'COMERCIAL','1979-07-22',2);
+
+select * from funcionario;
