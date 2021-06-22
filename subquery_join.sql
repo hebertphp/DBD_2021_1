@@ -88,3 +88,10 @@ insert into funcionario (nome, salario, departamento,dt_nascimento,dependente) v
 		('Astolfo',7800,'DIRETORIA','1979-03-15',3),
 		('Mariana',7800,'DIRETORIA','1975-03-15',4),
 		('Georgina',3600,'COMERCIAL','1979-07-22',2);
+create table departamento(
+  id_dep int not null primary key auto_increment,
+  nome varchar (50) not null
+);
+insert into departamento (nome) values
+('TI'),('DIRETORIA');
+		
